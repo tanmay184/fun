@@ -1,8 +1,8 @@
 document.getElementById("yesButton").addEventListener("mouseover", function () {
     var dialogBox = document.getElementById("dialogBox");
     var container = document.getElementById("container");
-    var newPositionX = Math.max(0, Math.min(window.innerWidth - dialogBox.offsetWidth, Math.floor(Math.random() * (container.offsetWidth - dialogBox.offsetWidth - 600))));
-    var newPositionY = Math.max(0, Math.min(window.innerHeight - dialogBox.offsetHeight, Math.floor(Math.random() * (container.offsetHeight - dialogBox.offsetHeight - 600))));
+    var newPositionX = Math.max(0, Math.min(window.innerWidth - dialogBox.offsetWidth, Math.floor(Math.random() * (container.offsetWidth - dialogBox.offsetWidth - 490))));
+    var newPositionY = Math.max(0, Math.min(window.innerHeight - dialogBox.offsetHeight, Math.floor(Math.random() * (container.offsetHeight - dialogBox.offsetHeight - 490))));
     dialogBox.style.left = newPositionX + "px";
     dialogBox.style.top = newPositionY + "px";
 });
