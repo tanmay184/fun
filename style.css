@@ -1,0 +1,32 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  #dialogBox {
+    width: 400px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  button {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+
+  .btn
+  {
+    margin: 5px;
+  }
+  
